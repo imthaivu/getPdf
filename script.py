@@ -59,9 +59,4 @@ for idx, url in enumerate(links):
 driver.quit()
 
 # === GỢI Ý KIỂM TRA ===
-print("\n🎉 Đã hoàn tất in PDF cho tất cả link!")
-print("🔎 Gợi ý kiểm tra:")
-print("   - ✅ Có thư mục 'DATA' trong cùng thư mục với script.")
-print("   - ✅ Có file 'links.txt' đúng định dạng (https://... mỗi dòng).")
-print("   - ✅ Đảm bảo ChromeDriver đúng phiên bản với trình duyệt Chrome (kiểm tra: chromedriver --version).")
-print("   - 🕒 Nếu bị lỗi không tạo được PDF, thử tăng time.sleep sau driver.get(url) (hiện đang là", delay_after_load, "giây).")
+print("\n🎉 Đã hoàn tất in PDF cho tất cả link! rồi đó")
