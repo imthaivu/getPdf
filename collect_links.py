@@ -76,4 +76,4 @@ with open(file_path, 'w') as f:
         f.write(link + '\n')
 
 driver.quit()
-print("🎉 Hoàn tất! Đã lưu các bài trong 5 năm gần nhất, đã sắp xếp.")
+print("🎉 Hoàn tất! Đã lưu các bài trong 5 năm gần nhất, đã sắp xếp rồi.") 
